@@ -1,0 +1,65 @@
+{
+  "output": "eDP-1",
+  "layer": "top",
+  "position": "top",
+  "spacing": 3,
+  "height": 1,
+  "margin-top": 7,
+  "margin-left": 400,
+  "margin-right": 400,
+
+  "modules-left": ["ext/workspaces"],
+  "modules-center": ["mpris"],
+
+  "modules-right": [
+    "memory",
+    "wireplumber",
+    "backlight",
+    "battery",
+    "clock",
+    "custom/lock"
+  ],
+
+  "ext/workspaces": {
+    "format": "{icon}", "format-icons": { "default": "●", "active": "●" }, "disable-click": false
+  },
+
+  "mpris": {
+    "format": "   {artist} - {title} ",
+    "format-paused": "   {artist} - {title} ",
+    "max-length": 60,
+    "tooltip": true,
+    "player": "firefox"
+  },
+
+  "memory": {
+    "interval": 5,
+    "format": "\uf2db  {percentage}%",
+    "tooltip-format": "{used:0.1f} GiB / {total:0.1f} GiB used\nSwap: {swapUsed:0.1f} GiB / {swapTotal:0.1f} GiB",
+    "states": { "warning": 75, "critical": 90 },
+    "on-click": "kitty -e btop"
+  },
+
+  "wireplumber": {
+    "scroll-step": 5,
+    "format": "{icon}  {volume}%",
+    "format-muted": "\uf026  muted",
+    "on-click": "pavucontrol",
+    "format-icons": {
+      "default": ["\uf026", "\uf027", "\uf028"],
+      "headphones": "\uf025",
+      "headset": "\uf025"
+    }
+  },
+
+  "clock": {
+    "format": "{:%H:%M}"
+  },
+
+  "custom/lock": {
+    "format": "\uf023  ",
+    "on-click": "pidof hyprlock || hyprlock",
+    "tooltip": true,
+    "tooltip-format": "Lock Screen"
+  }
+}
