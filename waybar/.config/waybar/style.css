@@ -43,3 +43,11 @@ tooltip {
     border-radius: 8px;
 }
 tooltip label { color: #c7c7cc; font-size: 11px; }
+
+#backlight, #battery {
+    background: transparent;
+    margin: 0 4px;
+    padding: 0 2px;
+}
+#battery.warning:not(.charging) { color: #e5c07b; }
+#battery.critical:not(.charging) { color: #e5645a; }

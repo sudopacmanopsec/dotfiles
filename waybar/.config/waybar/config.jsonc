@@ -41,6 +41,7 @@
   },
 
   "wireplumber": {
+    "max-volume": 100,
     "scroll-step": 5,
     "format": "{icon}  {volume}%",
     "format-muted": "\uf026  muted",
@@ -50,6 +51,20 @@
       "headphones": "\uf025",
       "headset": "\uf025"
     }
+  },
+
+  "backlight": {
+    "format": "{icon}  {percent}%",
+    "format-icons": ["\uf185"],
+    "scroll-step": 5
+  },
+
+  "battery": {
+    "states": { "warning": 30, "critical": 15 },
+    "format": "{icon}  {capacity}%",
+    "format-charging": "\uf0e7  {capacity}%",
+    "format-plugged": "\uf1e6  {capacity}%",
+    "format-icons": ["\uf244", "\uf243", "\uf242", "\uf241", "\uf240"]
   },
 
   "clock": {
