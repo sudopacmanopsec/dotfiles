@@ -9,7 +9,8 @@ Personal configs for Mango, Waybar, Rofi, and Kitty. Portable across distros —
 ## Install
 
 \`\`\`
-sudo xbps-install -S git stow
+sudo xbps-install -Su xbps
+sudo xbps-install git stow mangowc
 git clone git@github.com:sudopacmanopsec/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 stow mango waybar rofi kitty
