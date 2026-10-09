@@ -3,6 +3,8 @@
 Personal configs for Mango, Waybar, Rofi, and Kitty. Portable across distros — no Nix required.
 
 ![showcase](assets/readme.png)
+![yazi](assets/read.png)
+![rofi](assets/rofi.png)
 
 ## Install
 
