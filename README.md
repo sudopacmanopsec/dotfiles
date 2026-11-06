@@ -1,6 +1,6 @@
 # dotfiles
 
-Personal configs for Mango, Waybar, Rofi, and Kitty. Portable across distros — no Nix required.
+Personal configs for Mango, Waybar, Rofi, and Kitty, these are some old dotfiles, check out my new tokyo night one!
 
 ![showcase](assets/readme.png)
 ![yazi](assets/read.png)
