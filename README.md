@@ -1,6 +1,6 @@
 # dotfiles
 
-Personal configs for Mango, Waybar, Rofi, and Kitty, these are some old dotfiles, check out my new tokyo night one!
+Personal configs for Mango, Waybar, Rofi, and Kitty, these are some old dotfiles, check out my new tokyo night one, i dont use these and wont update theses, so these are very outdated, use at ur caution
 
 ![showcase](assets/readme.png)
 ![yazi](assets/read.png)
